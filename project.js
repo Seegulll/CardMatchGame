@@ -29,6 +29,7 @@ function timer() {
 function timerEnd() {
     // need to add what occurs once timer ends; Players
 }
+timer()
 
 
 function multiPlayer() {
