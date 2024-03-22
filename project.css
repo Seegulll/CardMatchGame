@@ -1,8 +1,8 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('images/bg.jpg'); /* Replace  with your image path */
+    background-image: url('images/bg.jpg'); 
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -14,7 +14,7 @@ header {
 }
 
 button {
-    background-color: #007bff;
+    background-color: #007bff; /* change */
     color: #fff;
     border: none;
     top: 20px;
