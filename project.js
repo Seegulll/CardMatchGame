@@ -1,5 +1,5 @@
 function goBack() {
-    window.location.href = "project.html"
+    window.location.href = "home.html"
 }
 function singlePlayer() {
 }
