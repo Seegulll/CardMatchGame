@@ -1,23 +1,51 @@
 <!DOCTYPE html>
-<!--project-->
-<html lang="En">
-
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title> Match the Card </title>
-    <link rel="stylesheet" type="text/css" href="home.css" title="style" />
-    <script src="project.js"></script>
-  </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Card Game!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            border: 2px solid #333;
+            border-radius: 5px;
+            background-color: grey;
+            color: #333;
+            text-decoration: none;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .button:hover {
+            background-color: #333;
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Card Game!</h1>
+    <button class="button" onclick="startGame()">Start</button>
+    <button class="button" onclick="showInstructions()">Instructions</button>
 
-  <body>
-    <header>
-      <h1>MATCH THE CARD!</h1>
-    </header>
-    <button onclick="goBack()"> Back </button>
-    <div class="">
-        
-    </div>
-    <footer>(c) Author: <span>  </span> </footer>
-  </body>
+    <script>
+        function startGame() {
+            alert("Let's start the game!");
+        }
 
+        function showInstructions() 
+            alert("Here are the instructions for the game...");
+        }
+    </script>
+</body>
 </html>
+
+--> added inline js and css for some reference! 
