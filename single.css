@@ -1,5 +1,12 @@
-body{
+body {
+	font-family: Arial, sans-serif;
 	text-align: center;
+}
+
+h1{
+	padding-top: 10%;
+	padding-bottom: 10%;
+	font-size: 800%;
 }
 
 img {
@@ -11,3 +18,8 @@ img:hover{
 	opacity: 70%;
 }
 
+#cardArea{
+	visibility: hidden;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
