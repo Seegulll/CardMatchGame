@@ -21,6 +21,7 @@ function singlePlayerPage(){
 }
 
 function startSinglePlayer(){
+	window.location.replace('single.html');
 }
 
 function startMultiplayer(){
