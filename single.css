@@ -1,9 +1,13 @@
 body{
-	text-align: left;
+	text-align: center;
 }
 
 img {
-  width: 10px,
-  height: 10px
+	border-radius: 5%;
+	width:10%;
+}
+
+img:hover{
+	opacity: 70%;
 }
 
