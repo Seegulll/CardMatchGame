@@ -1,28 +1,28 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Welcome to the Card Game!</title>
+ 	<link rel="stylesheet" href="home.css">
+ 	<script src="home.js"></script> 
+ </head>
+ <body>
+     <h1>Welcome to the Card Game!</h1>
+     <button class="button" onclick="startGame()">Start</button>
+     <button class="button" onclick="showInstructions()">Instructions</button>
 
+     <script>
+         function startGame() {
+             alert("Let's start the game!");
+         }
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>One Piece Card Game</title>
-    <link rel="stylesheet" href="home.css">
-</head>
-<body>
-    <div class = "details">
-        <h1>ONE PIECE</h1>
-        <h2>Match the Cards!</h2>
-        <button id="startButton" onclick="startButton()">Start</button>
-        
-        <button id="instructionsButton" onclick="instructions()">Instructions</button>
-
-    </div>
-    <div id="bird1"></div>
-    <div id ="bird2"></div>
-    <div id = "bird3"></div>
-    <div id = "bird4"></div>
-<script src = "home.js"></script>
-    
-</body>
-</html>
-
-
+         function showInstructions() 
+             alert("Here are the instructions for the game...");
+         }
+     </script>
+ 	<div>
+ 		<button class="button" onclick="modeSelect()" id="button1">Start</button>
+ 		<button class="button" onclick="instructions()" id="button2">Instructions</button>
+     </div>
+ 	<div>
+ 		<button class="button" id="button3">Back</button>
+ 	</div>
+ </body>
+ </html>
